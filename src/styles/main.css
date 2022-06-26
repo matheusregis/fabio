@@ -1,0 +1,23 @@
+
+@media only screen and (min-width: 650px) {
+    header ul li button {
+        font-size: 1.5rem/* 24px */;
+        line-height: 2rem/* 32px */;
+    }
+    header ul li button {
+        margin-right: 120px;
+    }
+    .ultimo {
+        margin-right: 0;
+    }
+  }
+
+@media only screen and (max-width: 649px) {
+    header ul li button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    header ul li button {
+        margin-right: 50px;
+    }
+}

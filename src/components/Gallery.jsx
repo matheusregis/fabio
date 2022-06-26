@@ -1,6 +1,6 @@
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import './gallery.css';
+import '../styles/gallery.css';
 export function Gallery () {
   const slideImages = [
     {

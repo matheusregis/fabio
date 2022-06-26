@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) {
+    .images {
+        height: 550px;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .images {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .images {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .images {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .images {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .images {
+        height: 350px;
+    }
+}
