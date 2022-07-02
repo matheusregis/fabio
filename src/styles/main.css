@@ -3,16 +3,35 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
     header ul li button {
         font-size: 1.5rem/* 24px */;
         line-height: 2rem/* 32px */;
     }
     header ul li button {
-        margin-right: 120px;
+        margin-right: 70px;
     }
     .ultimo {
         margin-right: 0;
+    }
+    main img{
+        height: 800px;
+    }
+  }
+
+@media (max-width: 999px) {
+    header ul li button {
+        font-size: 1.5rem/* 24px */;
+        line-height: 2rem/* 32px */;
+    }
+    header ul li button {
+        margin-right: 70px;
+    }
+    .ultimo {
+        margin-right: 0;
+    }
+    main img{
+        height: 550px;
     }
   }
 
@@ -23,5 +42,27 @@ body {
     }
     header ul li button {
         margin-right: 50px;
+    }
+    main img{
+        height: 450px;
+    }
+}
+
+@media (max-width: 450px) {
+    header ul li button {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    header ul li button {
+        margin-right: 40px;
+    }
+    main img{
+        height: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    main img{
+        height: 300px;
     }
 }
