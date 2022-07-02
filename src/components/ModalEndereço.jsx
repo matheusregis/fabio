@@ -1,7 +1,6 @@
-import { CheckCircle } from 'phosphor-react';
+import { Phone, Envelope } from 'phosphor-react';
 
-export default function ModalDetalhes({ closeModalDetalhes }) {
-
+export default function ModalEndereço({ closeModalEndereço }) {
   return (
     <>
       <div
@@ -13,11 +12,11 @@ export default function ModalDetalhes({ closeModalDetalhes }) {
             {/*header*/}
             <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
               <h3 className="text-3xl font-semibold">
-                Detalhes
+                Endereço
               </h3>
               <button
                 className="p-1 ml-auto bg-transparent border-0 text-gray-100 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                onClick={() => closeModalDetalhes(false)}
+                onClick={() => closeModalEndereço(false)}
               >
                 <span className="bg-transparent text-gray-100 h-6 w-6 text-2xl block outline-none focus:outline-none">
                   ×
@@ -25,51 +24,30 @@ export default function ModalDetalhes({ closeModalDetalhes }) {
               </button>
             </div>
             {/*body*/}
-            <div className="relative p-6 flex-auto grid grid-cols-2 items-center justify-center text-gray-100">
+            <div className="relative p-6 flex-auto grid grid-cols-1 items-center justify-center text-gray-100">
                 <p className="flex flex-row  my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Dormitório: 2
+                    Rua: Epitácio Pessoa
                 </p>
                 <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Sala: 1
+                    Número: 355
                 </p>
                 <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Cozinha: 1
+                    Bairro: Santo Antonio
                 </p>
                 <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Banheiros: 2
+                    Fraiburgo - SC
                 </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Área Gourmet: 1
-                </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Churrasqueira: Sim
-                </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Área de Serviço: Sim
-                </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Garagem: Sim
-                </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Móveis embutidos: (Cozinha, quarto, sala, banheiro)
-                </p>
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Área Construída: 113m²
-                </p> 
-                <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    <CheckCircle className="mr-3"/> Área do Terreno: 360m²
-                </p>                
+                                
             </div>
             {/*footer*/}
             <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
               <button
                 className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
-                onClick={() => closeModalDetalhes(false)}
+                onClick={() => closeModalEndereço(false)}
               >
                 Fechar
               </button>
-              
             </div>
           </div>
         </div>
