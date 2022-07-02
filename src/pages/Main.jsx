@@ -29,12 +29,12 @@ export function Main() {
                     </li>
                 </ul>
             </header>
-            <main className="flex">
+            <main className="flex h-screen">
                 {openModalDetalhes && <ModalDetalhes closeModalDetalhes={setOpenModalDetalhes}/>}
                 {openModalFotos && <ModalFotos closeModalFotos={setOpenModalFotos}/>}
                 {openModalContato && <ModalContato closeModalContato={setOpenModalContato}/>}
                 
-                <img className="flex w-screen opacity-50" src={image} alt="" />
+                <img className="flex w-screen h-screen opacity-90" src={image} alt="" />
             </main>
         </div>
     )
