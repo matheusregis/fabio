@@ -29,7 +29,7 @@ export default function ModalEndereço({ closeModalEndereço }) {
                     Rua: Epitácio Pessoa
                 </p>
                 <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
-                    Número: 355
+                    Número: 214
                 </p>
                 <p className="flex flex-row my-4 text-gray-100 font-bold text-lg leading-relaxed">
                     Bairro: Santo Antonio
